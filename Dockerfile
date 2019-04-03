@@ -10,8 +10,8 @@ WORKDIR /datos
 RUN touch f1.txt
 
 ##COPY
-COPY index.html
-COPY app.log /datos
+#COPY index.html
+#COPY app.log /datos
 
 ##ADD
 ADD docs docs
